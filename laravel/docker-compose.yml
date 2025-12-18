@@ -2,7 +2,8 @@
 
 services:
   app:
-    image: php:8.3-fpm
+    ibuild:
+    context: .
     container_name: laravel_app
     working_dir: /var/www
     volumes:
